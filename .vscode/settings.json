@@ -1,0 +1,20 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.validate": ["typescript", "typescriptreact"],
+  "files.exclude": {
+    "**/.DS_Store": true,
+    "**/.git": true,
+    "**/node_modules": true,
+    ".next": true,
+    "build": true
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "yarn.lock": true,
+    ".next": true,
+    "build": true
+  },
+  "typescript.tsdk": "./node_modules/typescript/lib"
+}
